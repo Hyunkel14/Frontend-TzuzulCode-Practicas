@@ -1,0 +1,73 @@
+.Fondo{
+    
+    width: 600px;
+    height: 480px;
+    margin: 0 auto;
+    background-image: url(./imagenes/FondoMenu.jpg), url(./imagenes/FondoRestaurant.jpg) ;
+    background-repeat: no-repeat, no-repeat;
+    background-position:center top, center;
+    background-size: 33%, 100%;
+    
+}
+.logo{
+width: 60px;
+height: 60px;
+text-align: left;
+margin-left: 11%;
+float: left;
+}
+
+.titulo{
+float: right;
+font-family: 'Dancing Script', cursive;
+color: orangered;
+display: inline-block;
+text-align: right;
+vertical-align: top;
+margin-right: 65%;
+font-size:20px;
+}
+
+.menu{
+    
+    font-family: 'Dancing Script', cursive;
+    color: orangered;
+    margin-left: 43%;
+    font-size: 30px;
+    margin-top: 9%;
+}
+
+.comida{
+
+    font-family: 'Dancing Script', cursive;
+    color: orangered;
+    margin-left: 13%;
+    font-size: 20px;
+    padding: 0px;
+    margin-bottom: 2%;
+
+}
+
+.listado{
+color: whitesmoke;
+font-family: 'Dancing Script', cursive;
+font-size: 15px;
+margin-left: 7%;
+list-style: none;
+}
+
+.qr{
+width: 120px;
+height: 160px;
+position:absolute; z-index:1; left:780px; top:410px;
+
+}
+
+.qr2{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    position:absolute; z-index:1; left:810px; top:360px;
+    font-weight: bold;
+    font-size: 20px;
+    
+    }
